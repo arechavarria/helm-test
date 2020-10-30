@@ -1,7 +1,4 @@
 name: "push-nexus"
 version: "0.9.3"
 description: "Push chart package to ChartMuseum"
-command: "$HELM_PLUGIN_DIR/bin/helm-push-nexus.sh"
-useTunnel: false
-hooks:
-  install: "cd $HELM_PLUGIN_DIR; scripts/install.sh"
+command: "$HELM_PLUGIN_DIR/helm-push-nexus.sh"
